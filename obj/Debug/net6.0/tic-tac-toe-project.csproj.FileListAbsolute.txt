@@ -1,0 +1,15 @@
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\bin\Debug\net6.0\tic-tac-toe-project.exe
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\bin\Debug\net6.0\tic-tac-toe-project.deps.json
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\bin\Debug\net6.0\tic-tac-toe-project.runtimeconfig.json
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\bin\Debug\net6.0\tic-tac-toe-project.dll
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\bin\Debug\net6.0\tic-tac-toe-project.pdb
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.csproj.AssemblyReference.cache
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.AssemblyInfoInputs.cache
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.AssemblyInfo.cs
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.csproj.CoreCompileInputs.cache
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.dll
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\refint\tic-tac-toe-project.dll
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.pdb
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\tic-tac-toe-project.genruntimeconfig.cache
+C:\Users\jeffe\OneDrive\Documents\GitHub\tic-tac-toe-project\obj\Debug\net6.0\ref\tic-tac-toe-project.dll
