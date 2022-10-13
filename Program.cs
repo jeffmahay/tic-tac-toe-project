@@ -2,46 +2,27 @@
 {
     static void Main(string[] args)
     {
+        Board board = new Board();
 
-        List<string> board = GetNewBoard();
+        List<string> spaces = board.spaces;
+
         string currentPlayer = "x";
 
-        while (!IsGameOver(board))
+        while (!IsGameOver(spaces))
         {
-            DisplayBoard(board);
+            board.print();
 
             int choice = GetMoveChoice(currentPlayer);
-            MakeMove(board, choice, currentPlayer);
+            MakeMove(spaces, choice, currentPlayer);
 
             currentPlayer = GetNextPlayer(currentPlayer);
         }
 
-        DisplayBoard(board);
+        board.print();
+
+        Console.WriteLine($"{GetNextPlayer(currentPlayer)} wins!");
+
         Console.WriteLine("Good game. Thanks for playing!");
-    }
-
-    /// <summary>Gets a new instance of the board with the numbers 1-9 in place. </summary>
-    /// <returns>A list of 9 strings representing each square.</returns>
-    static List<string> GetNewBoard()
-    {
-        List<string> board = new List<string>();
-
-        for (int i = 1; i <= 9; i++)
-        {
-            board.Add(i.ToString());
-        }
-
-        return board;
-    }
-
-    /// <summary>Displays the board in a 3x3 grid.</summary>
-    /// <param name="board">The board</param>
-    static void DisplayBoard(List<string> board)
-    {
-        Console.WriteLine($"{board[0]}|{board[1]}|{board [2]}");
-        Console.WriteLine($"{board[3]}|{board[4]}|{board [5]}");
-        Console.WriteLine($"{board[6]}|{board[7]}|{board [8]}");
-
     }
 
     /// <summary>
@@ -136,6 +117,10 @@
         {
             nextPlayer = "o";
         }
+        else
+        {
+            nextPlayer = "x";
+        }
 
         return nextPlayer;
 
@@ -147,10 +132,16 @@
     static int GetMoveChoice(string currentPlayer)
     {
         Console.Write($"{currentPlayer}'s turn to chose a square (1-9):");
-        string userChoice = Console.ReadLine();
+        string? userChoice = Console.ReadLine();
+
+        if (userChoice is null)
+        {
+            return 0;
+        }
 
         int selectedSquare = int.Parse(userChoice);
-        return selectedSquare;
+
+        return selectedSquare - 1;
     }
 
     /// <summary>
